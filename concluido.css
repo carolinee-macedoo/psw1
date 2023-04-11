@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteudo{
+    height: 50px;
+    width: 100%;
+    background-color: #f7cae4;
+    align-items: center;
+}
+p{
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 0, 0);
+}
+       

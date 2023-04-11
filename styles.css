@@ -1,0 +1,74 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width: 100%;
+}
+.agrup{
+    padding: 4px;
+    display: flex;
+    width: 100%;
+    color: rgb(56, 56, 56);
+    background-color: transparent;
+}
+.p1{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 5px;
+
+}
+.p2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-left: 5px;
+  
+}
+.dados{
+    width: 250px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 5px;
+    border: solid 1px rgb(161, 161, 161);
+}
+.dadosMaior{
+    width: 400px;
+}
+.dadosMenor{
+    width: 100px;
+}
+#radios{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 12pt;
+    align-items: center;
+    padding-left: 10px;
+}
+.InpR{
+   padding-left: 2px;
+}
+.parasubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    background-color: transparent;
+}
+#submit{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(101, 194, 166);
+    border: solid 2px transparent;
+}

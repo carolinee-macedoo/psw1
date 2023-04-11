@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    height: 15vh;
+    width: 100%;
+    background-color: transparent;
+}
+.paraIMG{
+    flex-grow: 1;
+    background-image: url("img.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#fdcae1;
+}
+.paratitulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20pt;
+    flex-grow: 2;
+    color: rgb(12, 8, 8);
+    background-color: #fdcae1;
+}
